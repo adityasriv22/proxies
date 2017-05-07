@@ -10,7 +10,6 @@ from twisted.web.http import proxiedLogFormatter
 from time import gmtime, strftime, localtime
 import os
 import re
-import MySQLdb
 import ConfigParser
 import geoip2.database
 import pony.orm
