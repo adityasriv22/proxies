@@ -390,8 +390,7 @@ class MyReverseProxyResource(proxy.ReverseProxyResource):
 		fil.write("\n  request method:"+request.method)
 		fil.write("\n  request.uri:" + str(request.uri))
 		fil.write("\n  request.path:" + str(request.path))
-		if request.args:
-			fil.write("\n  request args" + str(request.args))
+		fil.write("\n  request args:" + str(request.args))
 		fil.write("\n  request headers:" + str(request.requestHeaders))
 		fil.write("\n  response headers:" + str(request.responseHeaders))
 		#fil.close()
